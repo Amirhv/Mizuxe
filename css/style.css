@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.bg-khaki {
+  background: #EEE3AB;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+}
+
+#navbar {
+  border-bottom: 2px solid #39A9DB;
+}
+
+#showcase {
+  margin-top: 78px;
+}
+#showcase div#bg {
+  position: relative;
+  background: rgba(57, 169, 219, 0.4);
+  height: 80vh;
+}
+#showcase div#bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+}
+#showcase div#bg * {
+  z-index: 10;
+}
+#showcase div#bg .container {
+  height: 100%;
+}
+#showcase div#bg .container .row {
+  height: 100%;
+}
+#showcase div#bg .container .row #showcase-2nd-col {
+  height: 100%;
+}
+#showcase div#bg .container .row #showcase-2nd-col img {
+  height: 100%;
+}
+
+#authors img {
+  margin-top: -62px;
+}
+#authors .authors-card:hover {
+  background: #39A9DB;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
